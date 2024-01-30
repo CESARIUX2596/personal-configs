@@ -5,45 +5,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Website</title>
+    <title>Homepage</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
-    <script src="./script.js"></script>
 </head>
 
 <body>
     <main>
         <!-- Custom homepage for webrowser -->
         <div class="greeting">
-            <h1 class="greeting_tittle">Good <span id="time"></span> CESARIUX2596!</h1>
+            <h1 class="greeting-tittle">Good <span id="time-reference"></span> Cesar!</h1>
+        </div>
+
+        <div class="clock">
+            <div class="time"></div>
+            <div class="date"></div>
         </div>
 
         <!-- Display current time and weather -->
         <div class="time">
-            <div class="time_container">
-                <div class="time_container_time">
-                    <h1 class="time_container_time_hour" id="hour"></h1>
-                    <h1 class="time_container_time_minute" id="minute"></h1>
-                    <h1 class="time_container_time_second" id="second"></h1>
+            <div class="time-container">
+                <div class="time-container-time">
+                    <h1 class="time-container-time-hour" id="hour"></h1>
+                    <h1 class="time-container-time-minute" id="minute"></h1>
+                    <h1 class="time-container-time-second" id="second"></h1>
                 </div>
-                <div class="time_container_date">
-                    <h1 class="time_container_date_day" id="day"></h1>
-                    <h1 class="time_container_date_month" id="month"></h1>
-                    <h1 class="time_container_date_year" id="year"></h1>
+                <div class="time-container-date">
+                    <h1 class="time-container-date-day" id="day"></h1>
+                    <h1 class="time-container-date-month" id="month"></h1>
+                    <h1 class="time-container-date-year" id="year"></h1>
                 </div>
             </div>
         </div>
 
         <!-- Display current weather -->
         <div class="weather">
-            <div class="weather_container">
-                <div class="weather_container_location">
-                    <h1 class="weather_container_location_city" id="city"></h1>
-                    <h1 class="weather_container_location_country" id="country"></h1>
+            <div class="weather-container">
+                <div class="weather-container-location">
+                    <h1 class="weather-container-location-city" id="city"></h1>
+                    <h1 class="weather-container-location-country" id="country"></h1>
                 </div>
-                <div class="weather_container_temperature">
-                    <h1 class="weather_container_temperature_degree" id="degree"></h1>
-                    <h1 class="weather_container_temperature_description" id="description"></h1>
+                <div class="weather-container-temperature">
+                    <h1 class="weather-container-temperature-degree" id="degree"></h1>
+                    <h1 class="weather-container-temperature-description" id="description"></h1>
                 </div>
             </div>
         </div>
@@ -51,170 +55,168 @@
 
         <!-- Websites -->
 
-        <!-- Social -->
-        <div class="social">
-            <h1 class="container_name">Socials</h1>
-            <div class="social_container">
-                <div class="social_container_item">
-                    <a href="https://www.instagram.com/" target="_blank">Instagram</a>
-                </div>
-                <div class="social_container_item">
-                    <a href="https://www.messenger.com/" target="_blank">Messenger</a>
-                </div>
-                <div class="social_container_item">
-                    <a href="https://twitter.com" target="_blank">Twitter</a>
-                </div>
-                <div class="social_container_item">
-                    <a href="https://www.reddit.com/" target="_blank">Reddit</a>
-                </div>
+        <div class="websites-container">
+
+            <!-- Social -->
+            <div class="cathegory-container">
+                <h1 class="cathegory-name">Socials</h1>
+                <ul class="cathegory-list">
+                    <li class="cathegory-item">
+                        <a href="https://www.instagram.com/">Instagram</a>
+                    </li>
+                    <li class="cathegory-item">
+                        <a href="https://www.messenger.com/">Messenger</a>
+                    </li>
+                    <li class="cathegory-item">
+                        <a href="https://twitter.com">Twitter</a>
+                    </li>
+                    <li class="cathegory-item">
+                        <a href="https://www.reddit.com/">Reddit</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Streaming -->
+            <div class="cathegory-container">
+                <h1 class="cathegory-name">Streaming</h1>
+                <ul class="cathegory-list">
+                    <li class="cathegory-item">
+                        <a href="https://www.crunchyroll.com/">Crunchyroll</a>
+                    </li>
+                    <li class="cathegory-item">
+                        <a href="https://www.disneyplus.com/">Disney+</a>
+                    </li>
+                    <li class="cathegory-item">
+                        <a href="https://hbomax.com/">HBO MAX</a>
+                    </li>
+                    <li class="cathegory-item">
+                        <a href="https://www.netflix.com/">Netflix</a>
+                    </li>
+                    <li class="cathegory-item">
+                        <a href="https://www.primevideo.com/">Prime Video</a>
+                    </li>
+                    <li class="cathegory-item">
+                        <a href="https://www.twitch.tv/">Twitch</a>
+                    </li>
+                    <li class="cathegory-item">
+                        <a href="https://www.youtube.com/">YouTube</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Mailing -->
+            <div class="cathegory-container">
+                <h1 class="cathegory-name">Mailing</h1>
+                <ul class="cathegory-list">
+                    <li class="cathegory-item">
+                        <a href="https://mail.google.com/">Gmail</a>
+                    </li>
+                    <li class="cathegory-item">
+                        <a href="https://outlook.live.com/">Hotmail</a>
+                    </li>
+                    <li class="cathegory-item">
+                        <a href="https://www.icloud.com/">iCloud</a>
+                    </li>
+                    <li class="cathegory-item">
+                        <a href="https://proton.me/mail">Proton Mail</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Develop -->
+            <div class="cathegory-container">
+                <h1 class="cathegory-name">Develop</h1>
+                <ul class="cathegory-list">
+                    <li class="cathegory-item">
+                        <a href="https://aws.amazon.com/">AWS</a>
+                    </li>
+                    <li class="cathegory-item">
+                        <a href="https://bitbucket.org/">Bitbucket</a>
+                    </li>
+                    <li class="cathegory-item">
+                        <a href="https://www.cloudflare.com/">Cloudflare</a>
+                    </li>
+                    <li class="cathegory-item">
+                        <a href="https://github.com">GitHub</a>
+                    </li>
+                    <li class="cathegory-item">
+                        <a href="https://stackoverflow.com/">Stack Overflow</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Tools -->
+            <div class="cathegory-container">
+                <h1 class="cathegory-name">Tools</h1>
+                <ul class="cathegory-list">
+                    <li class="cathegory-item">
+                        <a href="https://www.bing.com/">Bing</a>
+                    </li>
+                    <li class="cathegory-item">
+                        <a href="https://chat.openai.com/">Chat GPT</a>
+                    </li>
+                    <li class="cathegory-item">
+                        <a href="https://duckduckgo.com/">Duck Duck Go</a>
+                    </li>
+                    <li class="cathegory-item">
+                        <a href="https://www.google.com/">Google</a>
+                    </li>
+                    <li class="cathegory-item">
+                        <a href="https://www.google.com/maps/">Google Maps</a>
+                    </li>
+                    <li class="cathegory-item">
+                        <a href="http://192.168.1.113/#/">Home Server</a>
+                    </li>
+                    <li class="cathegory-item">
+                        <a href="https://www.speedtest.net/">Speed Test</a>
+                    </li>
+                    <li class="cathegory-item">
+                        <a href="https://quillbot.com/">QuillBot</a>
+                    </li>
+                    <li class="cathegory-item">
+                        <a href="https://www.wolframalpha.com/">Wolfram Alpha</a>
+                    </li>
+
+
+                </ul>
+            </div>
+
+            <!-- Shopping -->
+            <div class="cathegory-container">
+                <h1 class="cathegory-name">Shopping</h1>
+                <ul class="cathegory-list">
+                    <li class="cathegory-item">
+                        <a href="https://www.amazon.com/">Amazon</a>
+                    </li>
+                    <li class="cathegory-item">
+                        <a href="https://www.amazon.com.mx/">Amazon MX</a>
+                    </li>
+                    <li class="cathegory-item">
+                        <a href="https://www.apple.com/">Apple</a>
+                    </li>
+                    <li class="cathegory-item">
+                        <a href="https://www.bestbuy.com/">Best Buy</a>
+                    </li>
+                    <li class="cathegory-item">
+                        <a href="https://www.ebay.com/">eBay</a>
+                    </li>
+                    <li class="cathegory-item">
+                        <a href="https://www.newegg.com/">Newegg</a>
+                    </li>
+                    <li class="cathegory-item">
+                        <a href="https://reverb.com/">Reverb</a>
+                    </li>
+                    <li class="cathegory-item">
+                        <a href="https://www.samsung.com/">Samsung</a>
+                    </li>
+                    <li class="cathegory-item">
+                        <a href="https://www.razer.com/">Razer</a>
+                    </li>
+                </ul>
             </div>
         </div>
-
-        <!-- Streaming -->
-        <div class="streaming">
-            <h1 class="container_name">Streaming</h1>
-            <div class="streaming_container">
-                <div class="streaming_container_item">
-                    <a href="https://www.crunchyroll.com/" target="_blank">Crunchyroll</a>
-                </div>
-                <div class="streaming_container_item">
-                    <a href="https://www.disneyplus.com/" target="_blank">Disney+</a>
-                </div>
-                <div class="streaming_container_item">
-                    <a href="https://hbomax.com/" target="_blank">HBO MAX</a>
-                </div>
-                <div class="streaming_container_item">
-                    <a href="https://www.netflix.com/" target="_blank">Netflix</a>
-                </div>
-                <div class="streaming_container_item">
-                    <a href="https://www.primevideo.com/" target="_blank">Prime Video</a>
-                </div>
-                <div class="streaming_container_item">
-                    <a href="https://www.twitch.tv/" target="_blank">Twitch</a>
-                </div>
-                <div class="streaming_container_item">
-                    <a href="https://www.youtube.com/" target="_blank">YouTube</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Mailing -->
-        <div class="mailing">
-            <h1 class="container_name">Mailing</h1>
-            <div class="mailing_container">
-                <div class="mailing_container_item">
-                    <a href="https://mail.google.com/" target="_blank">Gmail</a>
-                </div>
-                <div class="mailing_container_item">
-                    <a href="https://outlook.live.com/" target="_blank">Hotmail</a>
-                </div>
-                <div class="mailing_container_item">
-                    <a href="https://www.icloud.com/" target="_blank">iCloud</a>
-                </div>
-                <div class="mailing_container_item">
-                    <a href="https://proton.me/mail" target="_blank">Proton Mail</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Develop -->
-        <div class="develop">
-            <h1 class="container_name">Develop</h1>
-            <div class="develop_container">
-                <div class="develop_container_item">
-                    <a href="https://aws.amazon.com/" target="_blank">AWS</a>
-                </div>
-                <div class="develop_container_item">
-                    <a href="https://bitbucket.org/" target="_blank">Bitbucket</a>
-                </div>
-                <div class="develop_container_item">
-                    <a href="https://www.cloudflare.com/" target="_blank">Cloudflare</a>
-                </div>
-                <div class="develop_container_item">
-                    <a href="https://github.com" target="_blank">GitHub</a>
-                </div>
-                <div class="develop_container_item">
-                    <a href="https://stackoverflow.com/" target="_blank">Stack Overflow</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Tools -->
-        <div class="tools">
-            <div class="tools_container">
-                <div class="tools_container_item">
-                    <a href="https://chat.openai.com/" target="_blank">Chat GPT</a>
-                </div>
-                <div class="tools_container_item">
-                    <a href="https://www.google.com/maps/" target="_blank">Google Maps</a>
-                </div>
-                <div class="tools_container_item">
-                    <a href="http://192.168.1.113/#/" target="_blank">Home Server</a>
-                </div>
-                <div ckass="tools_container_item">
-                    <a href="https://www.speedtest.net/" target="_blank">Speed Test</a>
-                </div>
-                <div class="tools_container_item">
-                    <a href="https://quillbot.com/" target="_blank">QuillBot</a>
-                </div>
-                <div class="tools_container_item">
-                    <a href="https://www.wolframalpha.com/" target="_blank">Wolfram Alpha</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Shopping -->
-        <div class="shopping">
-            <h1 class="container_name">Shopping</h1>
-            <div class="shopping_container">
-                <div class="shopping_container_item">
-                    <a href="https://www.amazon.com/" target="_blank">Amazon</a>
-                </div>
-                <div class="shopping_container_item">
-                    <a href="https://www.amazon.com.mx/" target="_blank">Amazon MX</a>
-                </div>
-                <div class="shopping_container_item">
-                    <a href="https://www.apple.com/" target="_blank">Apple</a>
-                </div>
-                <div class="shopping_container_item">
-                    <a href="https://www.bestbuy.com/" target="_blank">Best Buy</a>
-                </div>
-                <div class="shopping_container_item">
-                    <a href="https://www.ebay.com/" target="_blank">eBay</a>
-                </div>
-                <div class="shopping_container_item">
-                    <a href="https://www.newegg.com/" target="_blank">Newegg</a>
-                </div>
-                <div class="shopping_container_item">
-                    <a href="https://reverb.com/" target="_blank">Reverb</a>
-                </div>
-                <div class="shopping_container_item">
-                    <a href="https://www.samsung.com/" target="_blank">Samsung</a>
-                </div>
-                <div class="shopping_container_item">
-                    <a href="https://www.razer.com/" target="_blank">Razer</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Search -->
-        <div class="search">
-            <h1 class="container_name">Search Engines</h1>
-            <div class="search_container">
-                <div class="search_container_item">
-                    <a href="https://www.bing.com/" target="_blank">Bing</a>
-                </div>
-                <div class="search_container_item">
-                    <a href="https://duckduckgo.com/" target="_blank">Duck Duck Go</a>
-                </div>
-                <div class="search_container_item">
-                    <a href="https://www.google.com/" target="_blank">Google</a>
-                </div>
-            </div>
-        </div>
-
     </main>
-    <script src="index.js"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
